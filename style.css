@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    margin: 0.6rem;
+    border-radius: 20%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.one{
+    background-color: #fb7777;
+}
+.two{
+    background-color: #ffe3b0;
+}
+.three{
+    background-color: #97cba9;
+}
+.four{
+    background-color: #6892d5;
+}
+.flash{
+    background-color: #fff;
+}
+.userflash{
+    background-color: grey;
+}
+.Score{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+@media(min-width: 330px) and  (max-width: 400px){
+    .btn{
+        height: 125px;
+        width: 125px;
+    }
+}
+
+@media(min-width: 700px) and (max-width: 1100px){
+    .btn{
+        height: 200px;
+        width: 200px;
+        margin: 1.2rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 40px;
+    }
+}
